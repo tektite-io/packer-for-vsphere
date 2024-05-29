@@ -951,4 +951,5 @@ while true; do
 done
 
 # TODO:
-# - Add support for SUSE Enterprise Linux Server download. Headless Chrome?
+# - Add support for SUSE Enterprise Linux Server download.
+# - Add support for Windows Server 2025 when GA.
