@@ -2,13 +2,27 @@
 
 ## v0.21.0
 
-> Not Released
+> Release Date: Not Released
 
 **Bug Fix**:
 
-- Updates to debian.yml file to remove the disable flag on cloud-init for ubuntu 24.04 LTS version
+- Updates to `debian.yml` file to remove the disable flag on cloud-init for Ubuntu 24.04 LTS version.
   [#940](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/940)
+- Updates to `debian.yml` file to fix cloud-init install issue and additional package issue.
+  [#944](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/944)
 
+**Enhancement**:
+
+- Updates `pkr.hcl.example` and `variables.pkr.hcl` with defaults.
+  [#944](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/944),
+  [#945](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/945)
+
+**Chore**:
+
+- Removed Red Hat Enterprise Linux 7 release.
+  [#944](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/944)
+- Updates Rocky Linux 8.9 to 8.10 release.
+  [#944](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/944)
 
 ## v0.20.0
 
