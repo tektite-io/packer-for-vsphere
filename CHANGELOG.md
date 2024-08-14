@@ -19,8 +19,11 @@
 
 **Chore**:
 
-- Removed Red Hat Enterprise Linux 7 release.
+- Removes Red Hat Enterprise Linux 7 from the project.
   [#944](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/944)
+
+  On 30 June 2024, Red Hat Enterprise Linux 7 reached the end of life.
+
 - Updates Rocky Linux 8.9 to 8.10 release.
   [#944](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/944)
 
@@ -90,6 +93,10 @@
 - Updates Rocky Linux 9 to 9.4 release.
   [#927](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/927)
 - Removes CentOS Stream 8 from the project.
+- Updates Almalinux 8.9 to 8.10 release.
+  [#956](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/956)
+- Updates Oracle Linux 8.9 to 8.10.
+  [#956](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/956)
 
   On 31 May 2024, CentOS Stream 8 reached the end of life.
 
