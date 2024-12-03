@@ -1,5 +1,53 @@
 # Release History
 
+## v0.22.0
+
+> Release Date: Not Released
+
+**Bug Fix**:
+
+- Reestablished an empty `GRUB_CMDLINE_LINUX_DEFAULT` as `late_command` for Ubuntu.
+  [#982](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/982)
+
+**Chore**:
+
+- Updates Debian 11 to 11.11 release.
+  [#985](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/985)
+- Updates Debian Linux 12 to 12.8 release.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates Ubuntu 22.04 LTS to 22.04.5 release.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates Red Hat Enterprise Linux 9 to 9.5 release.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates AlmaLinux 9 to 9.5 release.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates Rocky Linux 9 to 9.5 release.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates Oracle Linux 9 to 9.5 release.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates Fedora Server to release 41.
+  [#984](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/984)
+- Updates `required_versions` for `packer` to `>= 1.11.2`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates `required_plugins` for `packer-plugin-vsphere` to `>= 1.4.2`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates `required_versions` for `packer-plugin-ansible` to >= `1.1.2`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates `required_plugins` for `ethanmdavidson/packer-plugin-git` to `>= 0.6.2`.
+  [#717](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/717)
+- Updates `required_versions` for `terraform` to `>= 1.10.0`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates `required_versions` for `hashicorp/vsphere` to `>= 2.10.0`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates `required_versions` for `hashicorp/hcp` to `>= 0.100.0`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Update ansible-core to `>= 2.18.0`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates git to `>= 2.47.1`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+- Updates Gomplate to `>= 4.2.0`.
+  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
+
 ## v0.21.0
 
 > Release Date: 2024-09-26
