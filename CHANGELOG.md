@@ -9,6 +9,13 @@
 - Reestablished an empty `GRUB_CMDLINE_LINUX_DEFAULT` as `late_command` for Ubuntu.
   [#982](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/982)
 
+**Enhancement**:
+
+- Adds confirmation before overwriting existing configuration files.
+  [#987](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/987)
+- Adds CentOS Stream 10 to project.
+  [#989](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/989)
+
 **Chore**:
 
 - Updates Debian 11 to 11.11 release.
@@ -40,10 +47,6 @@
 - Updates `required_versions` for `hashicorp/vsphere` to `>= 2.10.0`.
   [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
 - Updates `required_versions` for `hashicorp/hcp` to `>= 0.100.0`.
-  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
-- Update ansible-core to `>= 2.18.0`.
-  [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
-- Updates git to `>= 2.47.1`.
   [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
 - Updates Gomplate to `>= 4.2.0`.
   [#986](https://github.com/vmware-samples/packer-examples-for-vsphere/pull/986)
